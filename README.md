@@ -24,6 +24,9 @@ Anyone who doesn't play Yone: Not being sub-human filth
 ### How install?
 Go to https://github.com/Derpthemeus/YoNAY/releases, download sources, build it yourself.
 
+### How to test?
+`git add . && git commit -m "lmao i hope this works" && git push origin` and create a new release.
+
 ### Is it effective at improving win rates?
 We have found it to be at least as effective as placebos (n = 0).
 
