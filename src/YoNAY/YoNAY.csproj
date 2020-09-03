@@ -54,7 +54,7 @@
     <StartupObject />
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Resources\NOYasuo_1.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\NOYone_1.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -243,8 +243,8 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\NOYasuo_1.ico" />
-    <None Include="Resources\NOYasuo_2.ico" />
+    <None Include="Resources\NOYone_1.ico" />
+    <None Include="Resources\NOYone_2.ico" />
     <None Include="Resources\YoNAY.ico" />
   </ItemGroup>
   <ItemGroup>

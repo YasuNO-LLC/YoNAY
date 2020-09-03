@@ -23,7 +23,7 @@ namespace Yonay
                     {
                         var notifyIcon = new NotifyIcon
                                          {
-                                             Icon = Resources.NOYasuo_1,
+                                             Icon = Resources.NOYone_1,
                                              Text = "YoNAY",
                                              BalloonTipText = "YoNAY is now protecting you from yourself",
                                              Visible = true
