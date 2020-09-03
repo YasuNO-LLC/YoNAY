@@ -14,7 +14,7 @@ namespace Yonay
     internal class NoPicker : IDisposable
     {
         private const string HoverEvent = "OnJsonApiEvent_lol-champ-select_v1_session";
-        private const int Cancer = 157;
+        private const int Cancer = 777;
 
         private static readonly Random Random = new Random();
 
