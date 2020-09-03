@@ -9,7 +9,7 @@ using LcuApi;
 
 using Newtonsoft.Json;
 
-namespace Yasuno
+namespace Yonay
 {
     internal class NoPicker : IDisposable
     {

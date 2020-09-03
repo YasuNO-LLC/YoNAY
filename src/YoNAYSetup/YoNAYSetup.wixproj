@@ -6,7 +6,7 @@
     <ProductVersion>3.10</ProductVersion>
     <ProjectGuid>f383d358-b634-47d6-801c-60a53015af23</ProjectGuid>
     <SchemaVersion>2.0</SchemaVersion>
-    <OutputName>YasuNOSetup</OutputName>
+    <OutputName>YoNAYSetup</OutputName>
     <OutputType>Package</OutputType>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">

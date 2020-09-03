@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-	<Product Id="*" Name="YasuNO" Language="1033" Version="1.0.0.0" Manufacturer="pseudonym117" UpgradeCode="9cf1d548-6e4b-4bd9-bc61-0a7fe37ae39b">
+	<Product Id="*" Name="YoNAY" Language="1033" Version="1.0.0.0" Manufacturer="pseudonym117" UpgradeCode="9cf1d548-6e4b-4bd9-bc61-0a7fe37ae39b">
 		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine"
-             Description="YasuNO" Comments="Improve your rank!" />
+             Description="YoNAY" Comments="Improve your rank!" />
 
 		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
 		<MediaTemplate EmbedCab="yes" />
 
-		<Feature Id="ProductFeature" Title="YasuNO" Level="1">
+		<Feature Id="ProductFeature" Title="YoNAY" Level="1">
 			<ComponentGroupRef Id="ProductComponents" />
 		</Feature>
 	</Product>
@@ -16,29 +16,29 @@
 		<Directory Id="TARGETDIR" Name="SourceDir">
       <Directory Id="DesktopFolder" Name="Desktop" />
 			<Directory Id="ProgramFilesFolder">
-				<Directory Id="INSTALLFOLDER" Name="YasuNO" />
+				<Directory Id="INSTALLFOLDER" Name="YoNAY" />
 			</Directory>
 		</Directory>
 	</Fragment>
 
-  <?define SourceDir="$(var.SolutionDir)YasuNO/bin/$(var.Configuration)/"?>
+  <?define SourceDir="$(var.SolutionDir)YoNAY/bin/$(var.Configuration)/"?>
 
   <Fragment>
     <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
-      <Component Id="YasuNoExe">
-        <File Id="YasuNO.exe" Name="YasuNO.exe" Source="$(var.SourceDir)YasuNO.exe"/>
+      <Component Id="YoNayExe">
+        <File Id="YoNAY.exe" Name="YoNAY.exe" Source="$(var.SourceDir)YoNAY.exe"/>
       </Component>
-      <Component Id="YasuNoExeConfig">
-        <File Id='YasuNO.exe.config'  Name='YasuNO.exe.config' Source='$(var.SourceDir)YasuNO.exe.config'/>
+      <Component Id="YoNayExeConfig">
+        <File Id='YoNAY.exe.config'  Name='YoNAY.exe.config' Source='$(var.SourceDir)YoNAY.exe.config'/>
 			</Component>
-      <Component Id="YasuNOStartShortcut" Guid="B1581B4F-419D-4B57-B283-0BA38BC919F2">
+      <Component Id="YoNAYStartShortcut" Guid="B1581B4F-419D-4B57-B283-0BA38BC919F2">
         <Shortcut Id="DesktopShortcut"
                   Directory="DesktopFolder"
-                  Name="YasuNO"
-                  Target="[#YasuNO.exe]"
+                  Name="YoNAY"
+                  Target="[#YoNAY.exe]"
                   Description="Improve your rank!"
                   WorkingDirectory="INSTALLFOLDER"/>
-        <RegistryValue Root="HKCU" Key="Software\Microsoft\YasuNO" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+        <RegistryValue Root="HKCU" Key="Software\Microsoft\YoNAY" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
       </Component>
       <Component Id="LcuApiDll">
         <File Id='LcuApi.dll'  Name='LcuApi.dll' Source='$(var.SourceDir)LcuApi.dll'/>

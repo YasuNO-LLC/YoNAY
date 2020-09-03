@@ -1,13 +1,13 @@
 ﻿using System.Threading;
 using System.Windows.Forms;
 
-using Yasuno.Properties;
+using Yonay.Properties;
 
-namespace Yasuno
+namespace Yonay
 {
     internal class Program
     {
-        private const string MutexName = "YasuNoMutex";
+        private const string MutexName = "YoNayMutex";
 
         private static void Main(string[] args)
         {
@@ -24,8 +24,8 @@ namespace Yasuno
                         var notifyIcon = new NotifyIcon
                                          {
                                              Icon = Resources.NOYasuo_1,
-                                             Text = "YasuNO",
-                                             BalloonTipText = "YasuNO is now protecting you from yourself",
+                                             Text = "YoNAY",
+                                             BalloonTipText = "YoNAY is now protecting you from yourself",
                                              Visible = true
                                          };
 
@@ -37,7 +37,7 @@ namespace Yasuno
                 notifyThread.SetApartmentState(ApartmentState.STA);
                 notifyThread.Start();
 
-                using (new YasuNo())
+                using (new YoNay())
                 {
                     notifyThread.Join();
                 }

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Yasuno.Properties {
+namespace Yonay.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Yasuno.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Yasuno.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Yonay.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -83,9 +83,9 @@ namespace Yasuno.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon YasuNO {
+        internal static System.Drawing.Icon YoNAY {
             get {
-                object obj = ResourceManager.GetObject("YasuNO", resourceCulture);
+                object obj = ResourceManager.GetObject("YoNAY", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }

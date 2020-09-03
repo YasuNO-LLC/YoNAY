@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 using LcuApi;
 
-namespace Yasuno
+namespace Yonay
 {
-    internal class YasuNo : IDisposable
+    internal class YoNay : IDisposable
     {
         private readonly Task _runner;
         private readonly CancellationTokenSource _tokenSource = new CancellationTokenSource();
 
-        public YasuNo()
+        public YoNay()
         {
             ServicePointManager.ServerCertificateValidationCallback += (sender, certificate, chain, errors) => true;
 
